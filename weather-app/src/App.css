@@ -1,0 +1,113 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  text-align: center;
+  background-image: url("./assets/clear_sky.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.Title {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 40px;
+  font-style: oblique;
+  color: rgb(203, 175, 142);
+  border-color: black;
+  border-bottom: 1ch;
+}
+
+.Search {
+  width: 55vh;
+}
+
+.Error {
+  color: #ec2323;
+  font-weight: bold;
+}
+
+input {
+  width: 300px;
+  padding: 10px;
+  margin: 10px 0;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  outline: none;
+  box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1);
+  transition: border-color 0.3s ease;
+}
+
+input:focus {
+  border-color: #007bff;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+button:active {
+  background-color: #004085;
+}
+
+.InfoContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #f8f9fa;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-top: 20px;
+  width: 300px;
+}
+
+.InfoContainer h2 {
+  margin-bottom: 15px;
+}
+
+.InfoContainer p {
+  margin: 5px 0;
+  font-size: 18px;
+  font-weight: bold;
+  color: #333;
+}
+
+.InfoContainer span {
+  font-weight: normal;
+  color: #555;
+}
+
+.Error {
+  color: red;
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+.ResetButton {
+  margin-top: 15px;
+  background-color: #007bff;
+  padding: 8px 15px;
+  border-radius: 4px;
+  color: white;
+  cursor: pointer;
+  border: none;
+}
+
+.ResetButton:hover {
+  background-color: #c82333;
+}
